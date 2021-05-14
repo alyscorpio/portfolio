@@ -9,10 +9,10 @@ body {
 }
 
 .hero {
-    height: 800px;
+    max-height: 900px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("assets/photos/portfolio-graphic.jpg");
+    background-image: url("../photos/portfolio-graphic.jpg");
     background-size: cover;
     background-position: center;
 }
