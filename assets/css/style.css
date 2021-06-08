@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.hero-img {
+    background-image: url("../photos/portfolio-graphic.jpg");
+    height: 700px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.first-name {
+    font-weight: lighter;
+    font-size: 80px;
+    display: block;
+    position: relative;
+    top: 50px;
+    bottom: auto;
+    left: 50px;
+    right: auto;
+    padding: 0px;
+}
+
+.last-name {
+    display: block;
+    font-weight: lighter;
+    font-size: 80px;
+    position: relative;
+    top: 96px;
+    bottom: auto;
+    left: 50px;
+    right: auto;
+    padding: 0px;
+}
+  
+nav {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    position: relative;
+    top: -180px;
+    bottom:auto;
+    right: auto;
+    left: 700px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    word-spacing: 1px;
+    text-align: right;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    background-color: #f991CC;
+    color: black;
+}
