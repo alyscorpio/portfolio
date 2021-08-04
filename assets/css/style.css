@@ -232,6 +232,19 @@ nav a:hover {
 }
 
 .links:hover {
-    background-color: #f991CC;
+    background-color: black;
     color: black;
 } 
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.credit {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
