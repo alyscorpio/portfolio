@@ -14,6 +14,7 @@ body {
     background-image: url("../photos/portfolio-graphic.jpg");
     height: 700px;
     width: 100%;
+    margin-top: 20px;
     margin-bottom: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,53 +29,55 @@ body {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
 .first-name {
-    font-weight: lighter;
-    font-size: 80px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
     display: block;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    font-weight: lighter;
+    top: 210px;
     bottom: auto;
-    left: 50px;
+    left: 350px;
     right: auto;
     padding: 0px;
 }
 
 .last-name {
+    color: black;
+    font-family: 'Playfair Display', serif;
     display: block;
+    font-size: 100px;
+    position: absolute;
     font-weight: lighter;
-    font-size: 80px;
-    position: relative;
-    top: 96px;
+    top: 310px;
     bottom: auto;
-    left: 50px;
+    left: 350px;
     right: auto;
     padding: 0px;
 }
   
 nav {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     font-size: 35px;
-    position: relative;
-    top: -180px;
-    bottom:auto;
-    right: auto;
-    left: 700px;
 }
 
 nav a {
     color: black;
     display: inline-block;
-    word-spacing: 1px;
+    word-spacing: 10px;
     text-align: right;
-    padding: 15px 20px;
     text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+    bottom:auto;
+    right: auto;
+    left: 670px;
 }
   
 nav a:hover {
@@ -82,25 +85,136 @@ nav a:hover {
     color: black;
 }
 
-#pic-me {
-    max-height: 700px;
-    max-width: auto;
-    float: right;
-    filter: grayscale(100%);
+.about {
+    background-color: black;
+    color: white;
+    height: 750px;
+    width: 100%;
     position: relative;
-    top: -30px;
+}
+
+#pic-me {
+    max-height: 750px;
+    max-width: auto;
+    float: left;
+    filter: grayscale(100%);
+    position: absolute;
+    top: 0;
     bottom: auto;
-    left: 0px;
-    right: auto;
+    left: auto;
+    right: 0;
+    z-index: 0;
 }
 
 #pic-me:hover {
     filter: none;
 }
 
-.about {
-    background-color: black;
+.label {
+    font-family: 'Playfair Display', serif;
     color: white;
-    height: 700px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-weight: lighter;
+    font-size: 67px;
+    margin-left: 50px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+
+#bio {
+    position: absolute;
+    top: 250px;
+    bottom: auto;
+    left: 50px;
+    right: 600px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.work {
+    background-color: white;
+    height: 650px;
     width: 100%;
+    position: relative;
+    top: -100px;
+} 
+
+.label2 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left: 50px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+.contact {
+    background-color: black;
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+.label3 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left: 50px;
+    position: absolute;
+    top: 20px;
+}
+
+.grid-time {
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 0px;
+}
+
+#project-1 {
+    height: 300px;
+    width: 422px;
+    background-color: white;
+}
+
+#project-2 {
+    height: 300px;
+    width: 422px;
+    background-color: lightslategrey;
+}
+
+#project-3 {
+    height: 300px;
+    width: 422px;
+    background-color: gray;
+}
+
+#project-4 {
+    height: 300px;
+    width: 422px;
+    background-color: gray;
+}
+
+#project-5 {
+    height: 300px;
+    width: 422px;
+    background-color: black;
+}
+
+#project-6 {
+    height: 300px;
+    width: 422px;
+    background-color: white;
+}
+
+.project-title {
+    position: relative;
+    bottom: 100px;
+    right: 16px;
+    z-index: 1;
 }
