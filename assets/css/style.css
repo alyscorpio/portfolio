@@ -153,7 +153,7 @@ nav a:hover {
 }
 .contact {
     background-color: black;
-    height: 750px;
+    height: 400px;
     width: 100%;
     position: relative;
 }
@@ -218,3 +218,20 @@ nav a:hover {
     right: 16px;
     z-index: 1;
 }
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 200px;
+    margin-left: 200px;
+    margin-right: 50px;
+    align-items: center;
+    font-size: 35px;
+}
+
+.links:hover {
+    background-color: #f991CC;
+    color: black;
+} 
