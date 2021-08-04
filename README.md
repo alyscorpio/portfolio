@@ -8,7 +8,7 @@ Welcome to my portfolio! My name is Alys Dickerson and I started software develo
 [Here](https://github.com/alyscorpio/portfolio) is a link to the GitHub repository.
 [Here](https://alyscorpio.github.io/portfolio/) is a link to the deployed application.
 
-![ScreenShot](portfolio.png)
+![Alt text](assets/images/portfolio.png)
 
 ## Contributing
 This application was created by Alys Dickerson under the direction of UCLA Coding Bootcamp.
