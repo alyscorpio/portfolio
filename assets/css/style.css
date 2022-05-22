@@ -6,12 +6,17 @@
 }
 
 body {
-    width: 100%;
-    height: auto;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
-.hero-img {
-    background-image: url("../photos/portfolio-graphic.jpg");
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
     height: 700px;
     width: 100%;
     margin-top: 20px;
@@ -34,7 +39,7 @@ h1 {
 
 .first-name {
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 100px;
     display: block;
     position: absolute;
@@ -48,7 +53,7 @@ h1 {
 
 .last-name {
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     display: block;
     font-size: 100px;
     position: absolute;
